@@ -23,5 +23,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd notes_app
+        cd elearning
         python manage.py test
